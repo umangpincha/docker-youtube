@@ -9,12 +9,6 @@ function App() {
         <p>
           An Amazing startup Idea !!
         </p>  
-        <p>
-          Hi all !!
-        </p>
-        <p>
-          My app....
-        </p>
       </header>
     </div>
   );
