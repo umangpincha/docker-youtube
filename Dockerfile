@@ -1,6 +1,7 @@
 FROM node:alpine as teamalpha
 WORKDIR /var/app
 COPY package.json .
+ENV CI=true
 RUN npm install
 COPY . .
 CMD ["npm" , "run" , "build"]
